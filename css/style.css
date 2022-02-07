@@ -20,6 +20,7 @@ nav{
 nav ul{
     display: inline-block;
     list-style-type: none;
+    
 }
 nav ul li{
     display: inline-block;
@@ -36,7 +37,7 @@ p{
 }
 
 .container{
-    max-width:1300px;
+    max-width: 1300px;
     margin:auto;
     padding-left:25px;
     padding-right:25px;
@@ -98,7 +99,10 @@ p{
     width:100%;
 }
 .small-container{
+    max-width: 800px;
     margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 
 }
 .col-4{
@@ -181,4 +185,108 @@ h4{
 }
 ul{
     list-style-type:none;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+/*product page*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #e67d05;
+    padding: 5px;
+}
+select:focus{
+    outline: none;
+}
+.page-btn{
+    margin:0 auto 80px;
+}
+.page-btn span{
+    display:inline-block;
+    border: 1px solid #e67d05;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align:center;
+    line-height: 40px;
+    cursor:pointer;
+}
+.page-btn span:hover{
+    background-color:#e67d05;
+    color: #fff;
+
+}
+
+/*product details*/
+.single-product{
+    margin-top: 80px;
+}
+.single-product .col-2 img{  
+    padding: 0;
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin:20px 0;
+    font-size: 22px;
+    font-weight:bold;
+}
+.single-product select{
+    display:block;
+    padding:10px;
+    margin-top:20px;
+}
+.single-product input{
+    width:50px;
+    height:40px;
+    padding-left:10px;
+    font-size:20px;
+    margin-right:10px;
+    border: 1px solid #e67d05;
+}
+input:focus{
+    outline:none
+}
+.single-product .bi{
+    color: #e67d05;
+    margin-left: 10px;
+}
+.small-img-row{
+    display:flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor:pointer;
+}
+/*media query*/
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display:block;
+        cursor: pointer;
+    }
 }
