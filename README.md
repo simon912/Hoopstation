@@ -30,8 +30,9 @@ Features to include:
     -  	Spin a Wheel reward once your total cost exceeded an amount - the rewards can be discount on some product or free products.
 
 Technologies used:
-- To be decided
+- Bootstrap CDN FontAwesome for the icons
 
 Testing:
 
 Credits:
+https://www.bootstrapcdn.com/fontawesome/
