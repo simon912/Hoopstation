@@ -22,13 +22,13 @@ Our goal: To sell product to customers and to attract more customers with appeal
 
 Features 
 
-Features to include:
+Features:
 -	Catalog - collection of items for users to look through and potentially buy
--	Search bar - allows user to search for an item
+
+Features left to include
 -	Cart - allows user to add an item before purchasing them
 -	Gamification:
     -  	Spin a Wheel reward once your total cost exceeded an amount - the rewards can be discount on some product or free products.
-
 Technologies used:
 - Bootstrap CDN FontAwesome for the icons
 
