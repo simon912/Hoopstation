@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lebron 19 | Basketball Ecommerce</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src ="../images/logo.png" width="125px"> 
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../product.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </nav> 
+            <img src="../images/cart.png" width="30px" height="30px">
+            <img src="../images/menu_icon.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+   </div>
+<!-------- the product detail --------->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2"> 
+            <img src="../images/product-image/air-jordan-1.jfif" width="100%" id="ProductImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="../images/product-image/air-jordan-1.jfif" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="../images/product-image/air-jordan-2.jfif" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="../images/product-image/air-jordan-3.jfif" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="../images/product-image/air-jordan-4.jfif" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <p>Home/Shoes</p>
+            <h1>Air Jordan XXXVI</h1>
+            <h4>S$205.00</h4>
+            <select id="select-size">
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" onclick="AddCart()" class="btn add-cart">Add to Cart</a>
+            <h3>Product Details <i class="bi bi-text-indent-left"></i></h3>
+            <br>
+            <p>Find your fast in the Air Jordan XXXVI, the franchise's next expression of lightweight speed.Weighing in as one of the lightest Jordan game shoes to date, it has a thin, minimal upper that's reinforced with a wraparound ribbon of TPU for side-to-side stability.The responsive cushioning is designed to return your energy step for step to help elevate your game.</p>
+        </div>
+    </div>
+</div>
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+    </div>
+</div>
+<div class="small-container">
+    <div class="row">
+        <div class="col-4">
+            <a href="../product/nike-precision.html"><img src="../images/product-image/precision-5-1.jfif"></a>
+            <h4>Nike Precision 5</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+            </div>
+            <p>S$99.00</p>
+        </div>
+        <div class="col-4">
+            <a href="../product/lebron-19.html"><img src="../images/product-image/lebron-19-1.jfif"></a>
+            <h4>Lebron 19</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+            <p>S$279.00</p>
+        </div>
+        <div class="col-4">
+            <a href="../product/curry-flow-9.html"><img src="../images/product-image/curry-flow-9-1.jpg"></a>
+            <h4>Curry Flow 9</h4>
+            <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+            </div>
+            <p>S$239.00</p>
+        </div>
+        
+        
+        </div>
+    </div>
+</div>
+
+<!---footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <img src ="../images/logo.png"> 
+                <p>We strive to bring the best experience.</p>
+            </div>
+            <div class="footer-col-2">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/script.js"></script>
+<script src="../js/cart.js" async></script>
+</body>
+</html>

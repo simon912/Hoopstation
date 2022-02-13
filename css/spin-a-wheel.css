@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Inter:wght@300&display=swap');
+/*Font Family:Inter, Fira Sans*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin : 0;
+    outline: none;
+    font-family:Inter, sans-serif;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    overflow:hidden;
+    background: radial-gradient(#ffe0bd,#ffc17a);
+    background-size:cover;
+}
+
+.mainbox {
+    position:relative;
+    width:500px;
+    height:500px;
+}
+.mainbox:after{
+    position:absolute; 
+    content:'';
+    width:32px;
+    height:32px;
+    background:url(../images/arrow-left.png) no-repeat;
+    background-size: 32px;
+    right:-30px;
+    top:50%;
+    transform:translateY(-50%);
+}
+.box{
+    width:100%;
+    height:100%;
+    position:relative;
+    border-radius: 50%;
+    border:10px solid #fff;
+    overflow: hidden;
+    transition: all ease 5s;
+}
+.box2{
+    width: 100%;
+    height: 100%;
+    transform:rotate(180deg);
+}
+span{
+    width:100%;
+    height:100%;
+    display:inline-block;
+    position:absolute;
+}
+.span1{
+    clip-path: polygon(50% 50%, 0 100%, 100% 100%);
+    background-color: #e67d05;
+
+}
+.span2{
+    clip-path: polygon(50% 50%, 100% 100%, 100% 0);
+    background-color: black;
+}
+span b{
+    width:65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    background-color:#fff;
+    position:absolute;
+    top:65%;
+    right:50%;
+    transform:translate(50%,50%);
+}
+.span1 b img{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+}
+.span2 b img{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+}
+.spin{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    border:4px solid #fff;
+    background-color:#e67d05;
+    color:#fff;
+    font-weight:bold;
+    font-size:22px;
+    cursor:pointer;
+}
+.spin:active{
+    width:70px;
+    height:70px;
+    font-size:20px;
+} 
+.mainbox.animate:after{
+    animation: animateArrow 0.7s ease infinite;
+}
+@keyframes animateArrow {
+    50% {
+        right: -40px;
+    }
+}

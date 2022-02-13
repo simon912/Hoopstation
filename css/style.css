@@ -249,56 +249,101 @@ input:focus{
     cursor:pointer;
 }
 /*cart*/
-.cart-page {
-    margin:80px auto;
+.content-section {
+    margin: 1em;
 }
-table{
-    width: 100%;
-    border-collapse: collapse;
+.section-header {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
 }
-.cart-info{
-    display:flex;
-    flex-wrap:wrap;
+.cart-row {
+    display: flex;
 }
-th{
-    text-align:left;
-    padding:5px;
-    color:#fff;
-    background: #e67d05;
-    font-weight:normal;
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
 }
-td{
-    padding: 10px 5px;
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
 }
-td input{
-    width: 40px;
-    height: 30px;
-    padding: 5px;
+
+.cart-row {
+    display: flex;
 }
-td a{
-    color: #e67d05;
-    font-size: 12px;
+
+.cart-item {
+    width: 45%;
 }
-td img{
-    width:80px;
-    height:80px;
-    margin-right: 10px; 
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
 }
-.total-price{
-    display:flex;
-    justify-content:flex-end;
+
+.cart-quantity {
+    width: 35%;
 }
-.total-price table{
-    border-top:3px solid #e67d05;
-    width: 100%;
-    max-width:350px;
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
 }
-td:last-child{
-    text-align:right;
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
 }
-th:last-child{
-    text-align:right;
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
 }
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
 /*media query*/
 @media only screen and (max-width: 800px){
     nav ul{

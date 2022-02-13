@@ -31,7 +31,7 @@ Features left to include
     -  	Spin a Wheel reward once your total cost exceeded an amount - the rewards can be discount on some product or free products.
 Technologies used:
 - Bootstrap CDN FontAwesome for the icons
-
+- Photoshop for creation of logo and images.
 Testing:
 
 Credits:

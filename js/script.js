@@ -10,7 +10,18 @@ function menutoggle(){
         MenuItems.style.maxHeight = "0px"
     } 
 }
-
+/**
+var DefaultSize = document.getElementsByValue("default-option")
+var SelectSize = document.getElementsByValue("select-size")
+function AddCart() 
+{
+    if(SelectSize == DefaultSize){
+    alert("Select a size")
+    }
+    else{
+        alert("Added to cart")
+    }
+}**/
 /*for product gallery*/
 var ProductImg = document.getElementById("ProductImg");
 var SmallImg = document.getElementsByClassName("small-img");
