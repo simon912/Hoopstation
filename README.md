@@ -29,23 +29,37 @@ Features left to include
 -	Cart - allows user to add an item before purchasing them
 -	Gamification:
     -  	Spin a Wheel reward once your total cost exceeded an amount - the rewards can be discount on some product or free products.
+
 Technologies used:
+
 - Bootstrap CDN FontAwesome for the icons
 - Photoshop for creation of logo and images.
 
 
 Testing:
+
 1. Home Page (index.html)
+
     i. Check if all the images are loaded.
+    
     ii. Check if all the hyperlinks are working.
+    
 2. Product Page
+
     i. Check if all the images are loaded.
+    
     ii. Check if the names, price and star ratings are correct
+    
     iii. Check if all the products are linked correctly.
+    
 3. Individual product page
+
     i. Check if the main product image is changed upon clicking the other smaller images.
+    
     ii. Check the Add to Cart function.
+    
     iii. Check if the related products are linked correctly.
 
 Credits:
+
 https://www.bootstrapcdn.com/fontawesome/
