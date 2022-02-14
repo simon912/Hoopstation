@@ -35,6 +35,17 @@ Technologies used:
 
 
 Testing:
+1. Home Page (index.html)
+    i. Check if all the images are loaded.
+    ii. Check if all the hyperlinks are working.
+2. Product Page
+    i. Check if all the images are loaded.
+    ii. Check if the names, price and star ratings are correct
+    iii. Check if all the products are linked correctly.
+3. Individual product page
+    i. Check if the main product image is changed upon clicking the other smaller images.
+    ii. Check the Add to Cart function.
+    iii. Check if the related products are linked correctly.
 
 Credits:
 https://www.bootstrapcdn.com/fontawesome/
