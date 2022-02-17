@@ -26,7 +26,7 @@ Features
 
 Features:
 -	Catalog - collection of items for users to look through and potentially buy
-
+-   List of NBA matches - to see all the previous NBA matches that was conducted for the past few years 
 Features left to include
 -	Cart - allows user to add an item before purchasing them
 -	Gamification:
@@ -36,8 +36,8 @@ Technologies used:
 
 - Bootstrap CDN FontAwesome for the icons
 - Photoshop for creation of logo and images.
-
-
+- JQuery 
+- RestDB for storing Contact information
 Testing:
 
 1. Home Page (index.html)
@@ -65,3 +65,4 @@ Testing:
 Credits:
 
 https://www.bootstrapcdn.com/fontawesome/
+https://www.balldontlie.io/ (API used for NBA Matches page)
