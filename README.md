@@ -1,4 +1,4 @@
-Github link: https://github.com/simon912/IDAssignment2
+Github link: https://github.com/simon912/Hoopstation
 
 S10223779 Low Jing Xi
 
