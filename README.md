@@ -36,14 +36,9 @@ Technologies used:
 
 - Bootstrap CDN FontAwesome for the icons
 - Photoshop for creation of logo and images.
-<<<<<<< HEAD
 - JQuery
+- RestDB for storing Contact information and Product information
 
-
-=======
-- JQuery 
-- RestDB for storing Contact information
->>>>>>> 4abc0433193cd2ffba8873eef3d0a7d4ddfb07ed
 Testing:
 
 1. Home Page (index.html)
@@ -67,8 +62,19 @@ Testing:
     ii. Check the Add to Cart function.
     
     iii. Check if the related products are linked correctly.
+    
+4. NBA Matches page
 
+    i. Check if tables are linked to the API properly.
+    
+5. Contact page
+
+    i. Check the validation for the Contact form.
+    
+    ii. Check if Contact form is sent properly to the RestDB.
+    
 Credits:
 
 https://www.bootstrapcdn.com/fontawesome/
+
 https://www.balldontlie.io/ (API used for NBA Matches page)
