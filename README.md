@@ -79,6 +79,8 @@ Testing:
 
     i. Check if the products are added in correctly.
     
+Pitch video: https://drive.google.com/file/d/1A7nZwfKPTzcyDsJirsnBTKDWdpI2vIIz/view
+
 Credits:
 
 https://www.bootstrapcdn.com/fontawesome/
