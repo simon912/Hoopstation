@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: padding;
 }
 body{
     font-family:Fira Sans, sans-serif;
@@ -12,6 +11,13 @@ body{
     display: flex;
     align-items: center;
     padding: 20px;
+}
+.logo-img {
+    width:125px;
+}
+.cart-img {
+    width:30px;
+    height:30px;
 }
 nav{
     flex: 1;
@@ -250,6 +256,9 @@ input:focus{
 }
 .price-div{
     display:flex;
+}
+.ProductImg .small-img {
+    width:100%;
 }
 /*cart*/
 .content-section {
@@ -510,7 +519,7 @@ input:focus{
     border-radius: 15px;
     cursor: pointer;
     padding: 10px;
-    font-size: 10x;
+    font-size: 10px;
 }
 
 .contact-input span:hover{
@@ -545,16 +554,21 @@ input:focus{
     border-bottom: 2px solid #e67d05;
 }
 .nba-header {
-    border-radius:20px;
-    width: 100%;
+    display:grid;
+    right:50px;
     padding: 50px 0px;
-    background-color: #fff;
+    background: radial-gradient(#ffe0bd,#ffc17a);
 }
 .nba-desc {
     padding:30px;   
     text-align:center;
 }
-
+.basketball-icon {
+    position:absolute;
+    max-width:10px;
+    left:630px;
+    top:1960px;
+}
 /*media query*/
 @media only screen and (max-width: 800px){
     nav ul{

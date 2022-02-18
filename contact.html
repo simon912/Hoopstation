@@ -14,7 +14,7 @@
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src ="images/logo.png" width="125px"> 
+                <img class="logo-img" src ="images/logo.png" alt="Hoopstation logo"> 
             </div>
             <nav>
                 <ul id="MenuItems">
@@ -25,11 +25,11 @@
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav> 
-            <img src="images/cart.png" width="30px" height="30px">
-            <img src="images/menu_icon.png" class="menu-icon" onclick="menutoggle()">
+            <a href="cart.html"><img class="cart-img" src="images/cart.png" alt="Cart icon"></a>
+            <img src="images/menu_icon.png" class="menu-icon" alt="Menu icon" onclick="menutoggle()">
         </div>
     </div>
-<!-------- contact --------->
+<!-- contact -->
 <div class="contact">
     <div class="contact-header">
         <h2 class="title">Contact Us</h2>
@@ -69,16 +69,16 @@
         <form>
             <h2 class="title">Send a Message</h2>
             <div class="contact-input">
-                <span>Full Name</span> <br><input type="text" id="contact-name" name="" required="required">
+                <span>Full Name</span> <br><input type="text" id="contact-name" required="required">
             </div>
             <div class="contact-input">
-                <span>Email</span><br><input type="email" id="contact-email" name="" required="required">
+                <span>Email</span><br><input type="email" id="contact-email" required="required">
             </div>
             <div class="contact-input">
                 <span>Type your Message</span><br><textarea id="contact-message" required="required"></textarea>
             </div>
             <div class="contact-input">
-                <input type="submit" name="" value="Submit" id="contact-submit">
+                <input type="submit" value="Submit" id="contact-submit">
             </div>
         </form>
     </div>
@@ -89,7 +89,7 @@
     <div class="container">
         <div class="row">
             <div class="footer-col-1">
-                <img src ="images/logo.png"> 
+                <img src ="images/logo.png" alt="Hoopstation logo"> 
                 <p>We strive to bring the best experience.</p>
             </div>
             <div class="footer-col-2">

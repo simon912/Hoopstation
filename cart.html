@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Products | Basketball Ecommerce</title>
+    <title>Cart | Basketball Ecommerce</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
         <div class="navbar">
             <div class="logo">
-                <img src ="images/logo.png" width="125px"> 
+                <img class="logo-img" src ="images/logo.png" alt="Hoopstation logo"> 
             </div>
             <nav>
                 <ul id="MenuItems">
@@ -21,11 +24,11 @@
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </nav> 
-            <img src="images/cart.png" width="30px" height="30px">
-            <img src="images/menu_icon.png" class="menu-icon" onclick="menutoggle()">
+            <a href="cart.html"><img class="cart-img" src="images/cart.png" alt="Cart icon"></a>
+            <img src="images/menu_icon.png" class="menu-icon" alt="Menu icon" onclick="menutoggle()">
         </div>
    </div>
-<!-------- cart --------->
+<!-- cart -->
 <section class="container content-section">
     <h2 class="section-header">CART</h2>
     <div class="cart-row">
@@ -36,32 +39,16 @@
     <div class="cart-items">
         <div class="cart-row">
             <div class="cart-item cart-column">
-                <img class="cart-item-image" src="images/placeholder.jpg" width="100" height="100">
-                <span class="cart-item-title">T-Shirt</span>
             </div>
-            <span class="cart-price cart-column">$19.99</span>
             <div class="cart-quantity cart-column">
-                <input class="cart-quantity-input" type="number" value="1">
-                <button class="btn remove-item" type="button">REMOVE</button>
             </div>
         </div>
-        <div class="cart-row">
-            <div class="cart-item cart-column">
-                <img class="cart-item-image" src="images/placeholder.jpg" width="100" height="100">
-                <span class="cart-item-title">Album 3</span>
-            </div>
-            <span class="cart-price cart-column">$9.99</span>
-            <div class="cart-quantity cart-column">
-                <input class="cart-quantity-input" type="number" value="2">
-                <button class="btn remove-item" type="button">REMOVE</button>
-            </div>
         </div>
-    </div>
     <div class="cart-total">
         <strong class="cart-total-title">Total</strong>
-        <span class="cart-total-price">$39.97</span>
+        <span class="cart-total-price"></span>
     </div>
-    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    <button class="btn btn-primary btn-purchase" id="btn-purchase" type="button">PURCHASE</button>
 </section>
 
 
@@ -70,7 +57,7 @@
     <div class="container">
         <div class="row">
             <div class="footer-col-1">
-                <img src ="images/logo.png"> 
+                <img src ="images/logo.png" alt="Hoopstation logo"> 
                 <p>We strive to bring the best experience.</p>
             </div>
             <div class="footer-col-2">

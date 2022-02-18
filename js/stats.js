@@ -36,7 +36,7 @@ fetch(games_url).then(
             document.getElementById('nba2020').innerHTML = temp;
           }
         }
-      )
+      );
     });
     var games_url = new URL("https://www.balldontlie.io/api/v1/games?seasons[]=2019");
   fetch(games_url).then(
@@ -56,6 +56,6 @@ fetch(games_url).then(
             document.getElementById('nba2019').innerHTML = temp;
           }
         }
-      )
+      );
     });
   

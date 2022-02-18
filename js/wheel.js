@@ -10,40 +10,40 @@ function myfunction(){
         // lets print output
         const actualDeg = deg % 360;
 				if (actualDeg>=0 && actualDeg<30 ){
-                    alert("You lost")
-					alert(actualDeg)
+                    alert("You lost");
+					window.location.replace("index.html");
 				}
 				if (actualDeg>=30 && actualDeg<40 ){ //win
-					alert("You won a shoe")
-					alert(actualDeg)
+					alert("You won a Nike Precision 5!");
+					window.location.replace("index.html");
 				}
 				if (actualDeg>=40 && actualDeg<135 ){ //win
-					alert("You won a shoe")
-					alert(actualDeg)
+					alert("You won a Nike Precision 5!");
+					window.location.replace("index.html");
 				}   
 				if (actualDeg>=135 && actualDeg<150 ){ //lose
-					alert("You lost")
-					alert(actualDeg)
+					alert("You lost");
+					window.location.replace("index.html");
 				}
 				if (actualDeg>=150 && actualDeg<195 ){ //lose
-					alert("You lost")
-					alert(actualDeg)
+					alert("You lost");
+					window.location.replace("index.html");
 				}
 				if (actualDeg>=195 && actualDeg<230 ){ //lose
-					alert("You lost")
-					alert(actualDeg)
+					alert("You lost");
+					window.location.replace("index.html");
 				}
 				if (actualDeg>=230 && actualDeg<280 ){ //win
-					alert("You won a shoe")
-					alert(actualDeg)
+					alert("You won a Nike Precision 5!");
+					window.location.replace("index.html");	
 				}
 				if (actualDeg>=280 && actualDeg<315 ){ //win
-					alert("You won a shoe")
-					alert(actualDeg)
+					alert("You won a Nike Precision 5!");
+					window.location.replace("index.html");
 				}
 				if (actualDeg>=315 && actualDeg<360 ){ //lose
-					alert("You lost")
-					alert(actualDeg)
+					alert("You lost");
+					window.location.replace("index.html");
 				}
 				console.log(actualDeg);
 }, 5000);
