@@ -32,6 +32,7 @@ Features left to include
 Technologies used:
 - Bootstrap CDN FontAwesome for the icons
 - Photoshop for creation of logo and images.
+- JQuery
 
 
 Testing:

@@ -248,6 +248,9 @@ input:focus{
     flex-basis: 24%;
     cursor:pointer;
 }
+.price-div{
+    display:flex;
+}
 /*cart*/
 .content-section {
     margin: 1em;
@@ -344,6 +347,214 @@ input:focus{
     font-size: 1.1em;
 }
 
+/* about */
+.about{
+    width: 100%;
+    padding: 50px 0px;
+    /* background-color: rgb(245, 205, 29); */
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+.about img{
+    height: auto;
+    width: 400px;
+    padding-left: 20px;
+
+}
+
+.about-main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+}
+
+.about-text p{
+    color: rgb(230, 248, 195);
+    letter-spacing: 1px;
+}
+
+.about-brands-col{
+    padding: 20px;
+    margin-bottom: 10px;
+    transition:transform 0.5s;
+}
+
+.about-brands-main img{
+    width:140px;
+    height: auto;
+}
+    
+.about-brands-row{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+/* Contact */
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-header{
+    text-align: center;
+}
+
+.contact-header p{
+    padding-bottom: 40px;
+}
+
+.contact-container{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.contact-container .contact-info{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-container .contact-info .contact-box{
+    position: relative;
+    padding: 20px 0px;
+    display:flex;
+}
+
+.contact-container .contact-info .contact-box .contact-icon{
+    min-width:60px;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+}
+
+.contact-text{
+    font-size: 15px;
+}
+
+.contact-map{
+    border: 1px solid black;
+
+}
+
+.fas{
+    padding-bottom: 20px;
+}
+
+.contact-form{
+    width: 70%;
+    padding: 40px;
+    background-color: beige;
+    border-radius: 10px;
+    border: 2px solid rgb(223, 223, 223);
+}
+
+.contact-form .contact-input{
+    position:relative;
+    width:100%;
+    margin-top: 10px;
+}
+
+.contact-form .contact-input input{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 20px 0;
+    border:none;
+    border-bottom: 2px solid black;
+    outline: none;  
+    background-color: beige;
+}
+
+.contact-form .contact-input textarea{
+    width: 100%;
+    height: 200px;
+    padding: 5px 0;
+    font-size: 20px;
+    margin: 20px 0;
+    border: 2px solid black;
+    outline: none;
+    resize: none;
+    background-color: beige;
+}
+
+.contact-input span{
+    font-size: 20px;
+}
+
+.contact-form .contact-input input[type="submit"]{
+    width:100px;
+    background-color:crimson;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 10x;
+}
+
+.contact-input span:hover{
+    color: crimson;
+  }
+
+.contact-input input[type="submit"]:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+  }
+/*nba stats page*/
+
+.table {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-collapse: collapse;
+    overflow: hidden;
+    font-weight: bold;
+}
+.table thead th{
+    background: #e67d05;
+    color: #fff;
+}
+.table td, .table th {
+    padding: 10px 20px;
+}
+.table tbody tr:nth-of-type(even) {
+    background: #eee
+}
+
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #e67d05;
+}
+.nba-header {
+    border-radius:20px;
+    width: 100%;
+    padding: 50px 0px;
+    background-color: #fff;
+}
+.nba-desc {
+    padding:30px;   
+    text-align:center;
+}
+
 /*media query*/
 @media only screen and (max-width: 800px){
     nav ul{
@@ -367,5 +578,29 @@ input:focus{
     .menu-icon{
         display:block;
         cursor: pointer;
+    }
+    .about{
+        margin-top:125px;
+    }
+    .nba-header{
+        margin-top:125px;
+    }
+    .contact{
+        margin-top:125px;
+    }
+    .contact-map{
+        position:relative; 
+        width:300px;
+        left:75px;
+    }
+    iframe {
+        width:300px;
+    }
+    .contact-text {
+        position: absolute;
+    }
+    .contact-icon {
+        position:relative; 
+        left:-75px;
     }
 }

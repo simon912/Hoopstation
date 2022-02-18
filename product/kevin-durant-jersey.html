@@ -5,6 +5,7 @@
     <title>Kevin Durant Nets Icon Edition 2020 | Basketball Ecommerce</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,8 +17,9 @@
                 <ul id="MenuItems">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../product.html">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../nba-stats.html">NBA Matches</a></li>
+                    <li><a href="../contact.html">Contact Us</a></li>
                 </ul>
             </nav> 
             <img src="../images/cart.png" width="30px" height="30px">
@@ -31,7 +33,7 @@
             <img src="../images/product-image/kevin-durant-1.jfif" width="100%" id="ProductImg">
             <div class="small-img-row">
                 <div class="small-img-col">
-                    <img src="../images/product-image/kevin-durant-1.jfif" width="100%" class="small-img">
+                    <img src="../images/product-image/kevin-durant-1.jfif" width="100%" class="small-img" id="MainImage">
                 </div>
                 <div class="small-img-col">
                     <img src="../images/product-image/kevin-durant-2.jfif" width="100%" class="small-img">
@@ -42,13 +44,14 @@
                 <div class="small-img-col">
                     <img src="../images/product-image/kevin-durant-4.jfif" width="100%" class="small-img">
                 </div>
-                </div>
             </div>
         </div>
         <div class="col-2">
             <p>Home/Jersey</p>
-            <h1>Kevin Durant Nets Icon Edition 2020</h1>
-            <h4>S$129.00</h4>
+            <h1 id="product-title">Kevin Durant Nets Icon Edition 2020</h1>
+            <div class="price-div">
+            <h4>S$</h4><h4 id="price">129.00</h4>
+            </div>
             <select id="select-size">
                 <option>Select Size</option>
                 <option>XXL</option>
@@ -57,8 +60,8 @@
                 <option>Medium</option>
                 <option>Small</option>
             </select>
-            <input type="number" value="1">
-            <a href="" onclick="AddCart()" class="btn add-cart">Add to Cart</a>
+            <input type="number" id="quantity" value="1">
+            <a href="" class="btn add-cart">Add to Cart</a>
             <h3>Product Details <i class="bi bi-text-indent-left"></i></h3>
             <br>
             <p>The Icon Edition jersey represents the franchise's rich heritage and iconic identity, expressed through the team's bold colours. The Nike NBA Icon Edition Swingman Jersey of the Brooklyn Nets is inspired by what the pros wear. Premium double-knit fabric has a classic jersey construction and a fit that looks great on fans.This product is made from 100% recycled polyester fibres.</p>
