@@ -82,3 +82,5 @@ https://www.bootstrapcdn.com/fontawesome/
 https://www.balldontlie.io/ (API used for NBA Matches page)
 
 https://restdb.io/ (API database used for Contact and Product)
+
+https://www.youtube.com/watch?v=Gcz5RM-imJ8 (Spin a Wheel)
