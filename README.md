@@ -19,6 +19,7 @@ In the shopping cart page, you can view all products that have been added into t
 
 
 External user's goal: To purchase product from the store
+
 Our goal: To sell product to customers and appeal to the basketball enthusiasts.
 
 
@@ -27,6 +28,7 @@ Features
 Features:
 -	Catalog - collection of items for users to look through and potentially buy
 -   List of NBA matches - to see all the previous NBA matches that was conducted for the past few years 
+
 Features left to include
 -	Cart - allows user to add an item before purchasing them
 -	Gamification:
